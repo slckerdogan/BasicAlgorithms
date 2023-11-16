@@ -1,0 +1,58 @@
+body {
+    background-image: url(math.PNG);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.writing{
+    color: white;
+    clear:both;
+    text-align: center;
+    border:none;
+}
+
+div li{
+    list-style-type: none;
+}
+
+.navbar{
+    clear:both;
+    width: 100%;
+    border:none;
+    color: #fff;
+    transition: all 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: sticky;
+    background-color: rgb(172, 5, 39);
+}
+
+.navbar div{
+    flex:1;
+    cursor:pointer;
+    transition: all .5s ease-in-out;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.navbar div:hover{
+    flex: 1.5;
+    background-color:darkolivegreen;
+}
+
+.infos{
+    margin: 25px;
+    color: darksalmon;
+
+}

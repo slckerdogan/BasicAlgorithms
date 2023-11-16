@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(math.PNG);
+    margin: 0;
+}
+
+.navbar{
+    clear:both;
+    width: 100%;
+    border:none;
+    color: #fff;
+    transition: all 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(172, 5, 39);
+    position: sticky;
+}
+
+.navbar div{
+    flex:1;
+    cursor:pointer;
+    transition: all .5s ease-in-out;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.navbar div:hover{
+    flex: 1.5;
+    background-color:darkolivegreen;
+}
+
+.text-center{
+    font-size: 15px;
+    color:darksalmon;
+    clear: left;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.columnCount {
+    column-count: 3;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.columnCount>p>a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.columnCount>p>a:hover {
+    color: chocolate;
+}
+
+.columnCount>p>a:active {
+    color:chartreuse;
+}
+
+footer{
+    font-size: 15px;
+    margin-top: 43px;
+    background-color: black !important;
+}
+
+.page-bottom{
+    color:white;
+    clear: left;
+    text-align: center;
+    padding:20px;
+}

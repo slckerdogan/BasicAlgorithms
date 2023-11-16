@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(math.PNG);
+}
+
+h1 {
+    text-align: center;
+    color:darksalmon;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: whitesmoke;
+}
+
+input[type="submit"] {
+    background: #007bff;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+.navbar{
+    clear:both;
+    width: 100%;
+    border:none;
+    color: #fff;
+    transition: all 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: sticky;
+    background-color: rgb(172, 5, 39);
+}
+
+.navbar div{
+    flex:1;
+    cursor:pointer;
+    transition: all .5s ease-in-out;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.navbar div:hover{
+    flex: 1.5;
+    background-color:darkolivegreen;
+}
